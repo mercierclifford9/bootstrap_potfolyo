@@ -1,0 +1,85 @@
+.first-nav{
+    height: 30px;
+    background-color: rgb(253, 115, 115);
+}
+img{
+    max-width: 100%;
+}
+
+.main1{
+    color: white;
+    height: 90vh;
+
+}
+.title{
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+.first{
+    font-weight: 700;
+    color: rgb(253, 115, 115);
+}
+/* .second{
+    font-size: 70px;
+} */
+.third{
+    border: solid 3px rgb(253, 115, 115);
+   
+    cursor: pointer;
+    animation-name: gwosi;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+
+
+}
+.button{
+    width: 30%;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    
+}
+.main2>{
+    display: flex;
+}
+.main2{
+    background-color: #fff;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+.row{
+    padding-left: 10px;
+}
+
+.nav-item>a:hover{
+    color: rgb(253, 115, 115);
+   
+
+}
+footer{
+    color: white;
+}
+@keyframes gwosi{
+    0%{
+        font-size: 18px;
+        height: 12cqmin;
+        width: 90%;
+        
+
+    }
+    50%{
+        font-size: 9px;
+        height: 6cqmin;
+        width: 60%;
+      
+        
+    }
+    100%{
+        font-size: 18px;
+        height: 12cqmin;
+        width: 90%;
+       
+    }
+}
